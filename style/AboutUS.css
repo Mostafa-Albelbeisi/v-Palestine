@@ -81,7 +81,7 @@
 /* Style the header with a background image */
 .about-header {
     background: url('/images/pexels-chrisna-senatus-7918088.jpg') center/cover no-repeat;
-    height: 50vh; /* Set the header height to 50% of the viewport height */
+    height: 50vh;
     display: flex;
     align-items: center;
 }
