@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Almarai', sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px;
+}
+
+/* Style the logo and its name */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.logo-name {
+  font-size: 2.5em;
+  font: bold;
+}
+
+/* Style the main menu */
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.2em;
+}
+
+.main-menu li {
+  margin-right: 20px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-menu a.active {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+/* Style the user actions (log-in and sign-up) */
+.user-actions a {
+  text-decoration: none;
+  color: green;
+  margin-right: 10px;
+}
+
+.user-actions .sign-in{
+  border: 5px 10px;
+  background-color: #007A3D;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+
+}
+
+.user-actions .sign-up{
+  border: 1px solid #007A3D;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+
+
+/* the body style */
+
+/* Style the container */
+.container {
+  display: flex;
+}
+
+/* Style the left side (image) */
+.left {
+  flex: 0 0 60%;
+  padding: 20px;
+  
+}
+
+.left img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the right side (paragraph and button) */
+.right {
+  flex: 1; 
+  padding: 20px;
+  margin: 50px;
+}
+
+h1{
+  color: #007A3D;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.p1 .span-p1{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.p2 .span-p2{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.p3 .span-p3{
+  font-weight: bold;
+
+}
+
+/* twitter button style */
+.twitter-button {
+    background-color: #007A3D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;  
+}
+
+.twitter-button:hover {
+    background-color: #4CAF50;
+}
+
+.twitter-icon {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+#ttt-button{
+  padding: 5px 15px;
+}
